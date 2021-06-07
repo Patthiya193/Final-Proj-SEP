@@ -22,7 +22,7 @@ class Ui_Form(object):
         font.setPointSize(14)
         Form.setFont(font)
         Form.setAutoFillBackground(False)
-        Form.setStyleSheet(u"background-color: rgb(255, 172, 129);\n"
+        Form.setStyleSheet(u"background-color: rgb(255, 255, 255);\n"
 "")
         self.picture_label = QLabel(Form)
         self.picture_label.setObjectName(u"picture_label")

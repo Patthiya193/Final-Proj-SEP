@@ -23,7 +23,7 @@ class Ui_Form(object):
         self.widget = QWidget(Form)
         self.widget.setObjectName(u"widget")
         self.widget.setGeometry(QRect(50, 40, 521, 291))
-        self.widget.setStyleSheet(u"background-color: rgb(254, 173, 129);")
+        self.widget.setStyleSheet(u"background-color: rgb(255, 255, 255);")
         self.relabel = QLabel(self.widget)
         self.relabel.setObjectName(u"relabel")
         self.relabel.setGeometry(QRect(40, 30, 91, 16))

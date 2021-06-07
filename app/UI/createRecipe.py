@@ -18,7 +18,7 @@ class Ui_Form(object):
         if not Form.objectName():
             Form.setObjectName(u"Form")
         Form.resize(660, 660)
-        Form.setStyleSheet(u"background-color: rgb(254, 173, 129);\n"
+        Form.setStyleSheet(u"background-color: rgb(255, 255, 255);\n"
 " border-radius:10px;")
         self.name_label = QLabel(Form)
         self.name_label.setObjectName(u"name_label")
@@ -165,7 +165,7 @@ class Ui_Form(object):
 
     def retranslateUi(self, Form):
         Form.setWindowTitle(QCoreApplication.translate("Form", u"Create Recipe", None))
-        self.name_label.setText(QCoreApplication.translate("Form", u"<html><head/><body><p><span style=\" font-size:14pt; color:#edecee;\">Name :</span></p></body></html>", None))
+        self.name_label.setText(QCoreApplication.translate("Form", u"Name :", None))
         self.level_label.setText(QCoreApplication.translate("Form", u"Difficulty :", None))
         self.ingSearch_label.setText(QCoreApplication.translate("Form", u"Ingredients:", None))
         self.search_pushButton.setText("")
